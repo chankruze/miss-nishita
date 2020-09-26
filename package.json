@@ -1,0 +1,24 @@
+{
+  "name": "dj-gaariwo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chankruze/dj-gaariwo.git",
+  "author": "chankruze <chankruze@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "config": "^3.3.1",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^3.2.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
