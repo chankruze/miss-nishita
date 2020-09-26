@@ -7,8 +7,5 @@ build:
   docker:
     worker: Dockerfile
 
-release:
-  image: worker
-
 run:
   worker: node index.js
